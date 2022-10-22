@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 90%;
+    margin: 0 auto;
+
+    background-color: #00fdff;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 50px;
+}
+
+.left-nav, .right-nav{
+    list-style-type: none;
+}
+
+.left-nav li{
+    display: inline-block;
+}
+
+.left-nav a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 18px;
+}
+
+.right-nav a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
